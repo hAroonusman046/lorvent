@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li a {
+  text-decoration: none;
+  color: rgb(218, 27, 78);
+}
+.phead {
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: "Courier New", Courier, monospace;
+}
+.maindiv li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.maindiv li:hover {
+  transform: scale(1.1, 1.1);
+}
+.maindiv {
+  text-align: right;
+  flex: 1;
+  text-transform: capitalize;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  background-color: antiquewhite;
+  height: 40px;
+  z-index: 100%;
+  position: sticky;
+  top: 0;
+}
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+#img1 {
+  height: 700px;
+  width: 100%;
+  align-items: center;
+}
+.align p {
+  width: 100%;
+  text-align: justify;
+  margin-top: 20px;
+}
+.box1 {
+  background-color: beige;
+  height: 250px;
+  width: 100%;
+  margin-top: 60px;
+}
+.box1 img {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  margin: 50px 40px 20px;
+  padding: 15px 15px 15px;
+}
+.box1 {
+  text-align: center;
+}
+.copyrite li {
+  border-right: 1px solid black;
+  display: inline-flex;
+  padding: 5px 20px 5px;
+}
+.copyrite {
+  text-align: center;
+}
+.right-border {
+  border-right: 0 !important;
+}

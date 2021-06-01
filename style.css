@@ -1,0 +1,268 @@
+body {
+  /* margin: auto;
+  padding: auto; */
+
+  /* filter: blur(4px); */
+  /* background-size: cover; */
+}
+.bg-blur-img {
+  background-image: url(./assets/images/fog-hills.jpg);
+  /* filter: blur(5); */
+  background-size: cover;
+  margin: auto;
+  padding: auto;
+  height: 700px;
+}
+.gs {
+  color: white;
+  padding: 4px 15px 4px;
+  margin-top: 20px;
+  margin-left: 635px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(196, 38, 51);
+}
+
+.topbar {
+  /* display: inline-block; */
+  list-style: none;
+  text-align: right;
+  flex: 1;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.topbar li {
+  display: inline-block;
+  padding: 3px 7px 3px;
+}
+.topbar a {
+  color: black;
+  /* font-family: "Reggae One", cursive; */
+  /* font-family: "Balsamiq Sans", cursive; */
+  /* font-family: "Amatic SC", cursive; */
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+}
+.maindiv h1 {
+  color: rgba(5, 5, 5, 0.774);
+  text-align: center;
+  padding-top: 130px;
+}
+.maindiv h4 {
+  color: #ffffffa6;
+  text-align: center;
+}
+
+.col-md-6 li {
+  list-style: none;
+}
+.container {
+  font-family: "Raleway", sans-serif;
+  padding: 100px 20px 100px;
+}
+.head5 {
+  color: rgb(141, 140, 140);
+}
+.maindiv2 {
+  font-family: "Raleway", sans-serif;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  background-color: rgba(192, 192, 192, 0.658);
+}
+.maindiv2 h1 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: rgb(75, 74, 74);
+}
+.maindiv2 h5 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  color: rgb(158, 158, 158);
+}
+
+.p-2-p {
+  display: flex;
+  padding: 20px 80px 30px;
+
+  text-align: center;
+}
+.box1 {
+  padding: 20px 25px 20px;
+  font-family: "Raleway", sans-serif;
+}
+.box2 {
+  padding: 20px 25px 20px;
+  font-family: "Raleway", sans-serif;
+}
+
+.pic1 img {
+  height: 350px;
+  width: 565px;
+  position: relative;
+}
+.pic2 img {
+  height: 350px;
+  width: 565px;
+  position: relative;
+}
+
+#ipsum {
+  background-color: white;
+  height: 60px;
+  width: 565px;
+}
+
+.box1 h3 {
+  padding-top: 20px;
+  font-size: 20px;
+}
+.box2 h3 {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+div #firstbtn {
+  font-family: "Raleway", sans-serif;
+  margin-left: 545px;
+  margin-right: 10px;
+  background-color: rgb(230, 26, 43);
+  color: white;
+  border: none;
+  padding: 4px 14px 4px;
+  font-size: 15px;
+  border-radius: 3px;
+}
+
+div #secondbtn {
+  font-family: "Raleway", sans-serif;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 4px 14px 4px;
+  font-size: 15px;
+  border-radius: 3px;
+}
+
+.mauris h1,
+h4 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.contain {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.cont-left {
+  text-align: right;
+  margin-left: 20px;
+  /* border: 1px solid red; */
+  width: 450px;
+  height: 430px;
+}
+.cont-left h3 {
+  text-align: right;
+  font-size: 18px;
+  color: rgb(158, 158, 158);
+}
+.cont-left h2 {
+  text-align: right;
+  color: rgb(65, 65, 65);
+}
+
+.cont-mid {
+  /* margin-left: 00px; */
+  /* margin: 5px 5px 5px; */
+  display: flex;
+  width: 450px;
+  height: 440px;
+  list-style: none;
+}
+
+.round img {
+  display: flex;
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  list-style: none;
+}
+.round li {
+  padding: 10px;
+  margin: 60px 15px 60px;
+  list-style: none;
+}
+
+.cont-right {
+  text-align: left;
+  margin-right: 20px;
+  /* border: 1px solid red; */
+  width: 450px;
+  height: 420px;
+}
+.cont-right h3 {
+  text-align: left;
+  font-size: 18px;
+  color: rgb(158, 158, 158);
+}
+.aenean {
+  font-family: "Raleway", sans-serif;
+  margin-top: 40px;
+  text-align: center;
+  /* filter: blur(); */
+  height: 300px;
+  width: auto;
+  background-image: url(./assets/images/trees1.jpg);
+}
+.aenean h1 {
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  padding-top: 50px;
+}
+.aenean h4 {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  padding-top: 40px;
+}
+.git {
+  color: white;
+  padding: 4px 15px 4px;
+  margin-top: 20px;
+  /* margin-left: 100px; */
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(196, 38, 51);
+}
+.box-end {
+  background-color: rgb(214, 214, 214);
+  height: 250px;
+  width: 100%;
+  margin-top: 60px;
+}
+.box-end img {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  margin: 50px 40px 20px;
+  padding: 15px 15px 15px;
+}
+.box-end {
+  text-align: center;
+}
+.copyrite li {
+  border-right: 1px solid black;
+  display: inline-flex;
+  padding: 5px 20px 5px;
+}
+.copyrite {
+  text-align: center;
+}
+.right-border {
+  border-right: 0 !important;
+}
+
+.box-end img {
+  color: rgb(196, 38, 51);
+}
